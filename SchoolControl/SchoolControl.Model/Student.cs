@@ -5,7 +5,6 @@ using System.Text;
 
 namespace SchoolControl.Model
 {
-    //teste de push
     public class Student : Base.User
     {
         
