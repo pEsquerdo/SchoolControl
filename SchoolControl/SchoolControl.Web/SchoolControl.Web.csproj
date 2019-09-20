@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1FF6574C-6930-4B72-A610-DE2261EB3E3B}</ProjectGuid>
+    <ProjectGuid>{530996BA-CEE3-44D5-99CB-402E7DFCDE38}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -126,8 +126,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Areas\StudentArea\StudentAreaAreaRegistration.cs" />
-    <Compile Include="Areas\TeacherArea\TeacherAreaAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -145,8 +143,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Areas\TeacherArea\Views\web.config" />
-    <Content Include="Areas\StudentArea\Views\web.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -175,12 +171,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\StudentArea\Controllers\" />
-    <Folder Include="Areas\StudentArea\Models\" />
-    <Folder Include="Areas\StudentArea\Views\Shared\" />
-    <Folder Include="Areas\TeacherArea\Controllers\" />
-    <Folder Include="Areas\TeacherArea\Models\" />
-    <Folder Include="Areas\TeacherArea\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -212,7 +202,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>42381</DevelopmentServerPort>
+          <DevelopmentServerPort>3708</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:42381/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
