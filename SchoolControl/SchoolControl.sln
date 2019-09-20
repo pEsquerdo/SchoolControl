@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolControl.Dao", "School
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolControl.Services", "SchoolControl.Services\SchoolControl.Services.csproj", "{FBA42E78-F8C0-4375-9BCF-7D9A370191DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolControl.Web", "SchoolControl.Web\SchoolControl.Web.csproj", "{1FF6574C-6930-4B72-A610-DE2261EB3E3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FBA42E78-F8C0-4375-9BCF-7D9A370191DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBA42E78-F8C0-4375-9BCF-7D9A370191DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBA42E78-F8C0-4375-9BCF-7D9A370191DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF6574C-6930-4B72-A610-DE2261EB3E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF6574C-6930-4B72-A610-DE2261EB3E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF6574C-6930-4B72-A610-DE2261EB3E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF6574C-6930-4B72-A610-DE2261EB3E3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
