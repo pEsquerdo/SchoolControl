@@ -7,10 +7,12 @@ namespace SchoolControl.Model
 {
     public class Student : Base.User
     {
-        
-        public int Attendance { get; set; }
 
-        public float Grade { get; set; }
+        public DateTime BirthDate { get; set; }
+
+        public virtual IList<Attendance> Attendances { get; set; }
+
+        public virtual IList<Grade> Grades { get; set; }
 
         public Student()
         {

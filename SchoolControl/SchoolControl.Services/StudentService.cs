@@ -12,6 +12,7 @@ namespace SchoolControl.Services
     {
         public StudentService(DataContext context) : base(context)
         {
+
         }
     }
 }
